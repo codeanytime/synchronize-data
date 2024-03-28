@@ -80,7 +80,7 @@
 					<propertyFile>src/main/resources/liquibase.properties</propertyFile>
 <!--					<diffChangeLogFile>src/main/resources/db/changelog/${maven.build.timestamp}_changelog.xml</diffChangeLogFile>-->
 <!--					<outputChangeLogFile>src/main/resources/db/changelog/${maven.build.timestamp}_liquibase-outputChangeLog.xml</outputChangeLogFile>-->
-					<outputChangeLogFile>src/main/resources/db/changelog/slave-changeLog.xml</outputChangeLogFile>
+					<outputChangeLogFile>src/main/resources/db/changelog/slave-changeLog.sql</outputChangeLogFile>
 
 					<!--					<driver>org.postgresql.Driver</driver>-->
 <!--					<url>jdbc:postgresql://localhost:5432/blogshare</url>-->

@@ -1,2 +1,1 @@
-mvn liquibase:generateChangeLog
-mvn liquibase:diff
+mvn liquibase:diff -Dliquibase.diffTypes=columns,tables,views,indexes,foreignkeys,primarykeys,uniqueconstraints,data
