@@ -1,0 +1,2 @@
+mvn liquibase:generateChangeLog
+mvn liquibase:diff
